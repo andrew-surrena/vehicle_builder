@@ -39,7 +39,7 @@ Answer the prompts provided to create a new vehicle or select from a pre-loaded 
 
 ### Access video demo: 
 
-* https://www.youtube.com/watch?v=k1VVB97FkOA
+* https://youtu.be/lycbcbnct08
 
 ## Credits
 Special thanks to the following instructors for their help:
