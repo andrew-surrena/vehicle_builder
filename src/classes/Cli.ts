@@ -398,7 +398,7 @@ class Cli {
               if (this.vehicles[i] instanceof Truck) 
              {
               this.findVehicleToTow(this.vehicles[i] as Truck);return
-            }else {console.log(`This vehicle cannot tow`);
+            }else {console.log(`This vehicle cannot tow.`);
             }
           }
         }
@@ -409,6 +409,7 @@ class Cli {
             if (this.vehicles[i].vin === this.selectedVehicleVin) {
               if(this.vehicles[i] instanceof Motorbike){
                 (this.vehicles[i] as Motorbike).wheelie();
+              }else {console.log(`This vehicle cannot wheelie.`);
               }
             }
           }
